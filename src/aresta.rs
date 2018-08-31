@@ -1,4 +1,4 @@
 pub struct Aresta {
-    vertice_origem: u64,
-    vertice_destino:u64
+    pub vertice_origem: u64,
+    pub vertice_destino:u64
 }
