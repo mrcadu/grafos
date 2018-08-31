@@ -1,3 +1,7 @@
+mod grafo;
+use grafo::Grafo;
+
 fn main() {
-    println!("Hello, world!");
+    let grafo = Grafo{arestas:[]};
+    grafo.ler_arquivo_grafo();
 }
